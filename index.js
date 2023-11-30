@@ -11,7 +11,7 @@ const Facebook = require("./models/Facebook")
 const Youtube = require("./models/Youtube")
 const Telegram = require("./models/Telegram")
 
-const PORT = process.env.PORT || 5000
+const PORT = 3500
 
 mongoose.connect("mongodb://127.0.0.1:27017/People").then((res) => console.log("connected to mongodb")).catch((err) => {
 	console.log(err)
